@@ -15,6 +15,7 @@ nav {
     align-items: center;
     height: 70px;
     background-color: rgb(18, 18, 62);
+
 }
 
 nav ul {
@@ -113,17 +114,19 @@ main hr {
 
 .secondSection .box {
     background: white;
-    width: 77vw;
-    height: 2px;
+    width: 84vw;
+    height: 1.5px;
     margin: 56px 0;
     display: flex;
+    
+    
 }
 
 .secondSection .vertical {
     height: 93px;
     width: 1px;
     background-color: white;
-    margin: 0 100px;
+    margin: 0 90px;
 }
 
 .image-top {
@@ -160,7 +163,7 @@ footer {
 .footer {
     display: flex;
     padding: 23px 122px;
-    justify-content: space-evenly
+    justify-content: space-evenly;
 }
 
 .footer ul {
@@ -175,5 +178,79 @@ footer .footer-rights {
     text-align: center;
     color: gray;
     padding: 12px 0;
+
+}
+
+ /*@media screen and (max-width: 700px) {
+    body {
+        
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .sectionSection .vertical {
+        height: unset;
+    }
+
+    .vertical-title,
+    .vertical-desc {
+        left: 45px;
+    }
+
+
+    nav {
+        flex-direction: column;
+    }
+
+    .firstSection {
+
+        flex-direction: column-reverse;
+    }
+
+    .leftSection {
+        width: 120% !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    .sectionSection {
+        max-width: 150vw;
+        margin: auto;
+        height: 200vh;
+    }
+
+
+    .rightSection {
+        width: 72% !important;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rightSection img {
+        width: 45vw;
+        margin-bottom: 65px;
+
+
+    }
+
+    .image-top {
+        top: 122px;
+    }
+
+    .secondSection {
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body {
+        min-width: fit-content;
+    }
 
 }
