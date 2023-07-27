@@ -118,8 +118,8 @@ main hr {
     height: 1.5px;
     margin: 56px 0;
     display: flex;
-    
-    
+
+
 }
 
 .secondSection .vertical {
@@ -181,76 +181,3 @@ footer .footer-rights {
 
 }
 
- /*@media screen and (max-width: 700px) {
-    body {
-        
-    }
-
-    .box {
-        flex-direction: column;
-    }
-
-    .sectionSection .vertical {
-        height: unset;
-    }
-
-    .vertical-title,
-    .vertical-desc {
-        left: 45px;
-    }
-
-
-    nav {
-        flex-direction: column;
-    }
-
-    .firstSection {
-
-        flex-direction: column-reverse;
-    }
-
-    .leftSection {
-        width: 120% !important;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-
-    }
-
-    .sectionSection {
-        max-width: 150vw;
-        margin: auto;
-        height: 200vh;
-    }
-
-
-    .rightSection {
-        width: 72% !important;
-        display: flex;
-        justify-content: center;
-    }
-
-    .rightSection img {
-        width: 45vw;
-        margin-bottom: 65px;
-
-
-    }
-
-    .image-top {
-        top: 122px;
-    }
-
-    .secondSection {
-
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    body {
-        min-width: fit-content;
-    }
-
-}
